@@ -1,5 +1,5 @@
 
-@HealthDomain
+@sanity1
 Feature: Fill all Deatils to make a Appiontment
 
   Background: 

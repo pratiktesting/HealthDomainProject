@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 	
 
 	features="src/test/java/resources",
-	glue= {"stepDefination"},
-	tags="@HealthDomain1",
+	glue= {"stepDefination","Hooks"},
+	tags="@sanity1",
 	dryRun= false,
 	monochrome= false,
 	//publish= true,

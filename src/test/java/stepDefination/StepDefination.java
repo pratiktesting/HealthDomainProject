@@ -10,7 +10,7 @@ import utitlities.BaseClass;
 
 public class StepDefination extends BaseClass {
 
-	WebDriver driver= BaseClass.initilizeDriver();
+	//WebDriver driver= BaseClass.initilizeDriver();
 	
 	LoginPageFunction obj1 = new LoginPageFunction(driver);
 	MakeAppointmentPage obj2 = new MakeAppointmentPage(driver);
@@ -23,8 +23,9 @@ public class StepDefination extends BaseClass {
 	public void user_opens_the_url_of_the_application() {
 		driver.get("https://katalon-demo-cura.herokuapp.com/#appointment");
 		
-		BaseClass.maximizeWindow();
-		BaseClass.implicitWait();
+		//BaseClass.maximizeWindow();
+	//	driver.manage().deleteAllCookies();
+		//BaseClass.implicitWait();
 	}
 
 	@Given("Click on Make Appointment Button")

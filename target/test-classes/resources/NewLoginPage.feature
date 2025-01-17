@@ -1,5 +1,5 @@
 
-@HealthDomain1
+@sanity
 Feature: Login Functionality of Cura Health Care Service
 
   Scenario Outline: User Should be able to Login with Valid Creds
