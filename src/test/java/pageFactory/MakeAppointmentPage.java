@@ -41,7 +41,7 @@ public class MakeAppointmentPage {
 	@FindBy(xpath="//input[@id='txt_visit_date']")
 	WebElement visitDate;
 	//
-	@FindBy(xpath="//textarea[@id='txt_comment']")
+	@FindBy(xpath="//textarea[@id='txt_commentsss']")
 	WebElement comments;
 	
 	@FindBy(xpath="//button[@id='btn-book-appointment']")
